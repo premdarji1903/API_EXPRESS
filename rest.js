@@ -16,7 +16,7 @@ const start =async()=>{
             );
         mongoose.set('strictQuery', true);
     app.listen(PORT,()=>{
-        console.log(`server is start and listen the port is ${PORT}`)
+       
     })}
     catch(err){
         console.log(err)
